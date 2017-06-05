@@ -28,7 +28,7 @@ Packages for various distributions are provided:
 * [Gentoo](https://wiki.gentoo.org/wiki/Dlang)
 * [OpenSuse](http://dlang.org/download.html#dmd)
 
-### Other compilers
+## Other compilers
 
 Besides the DMD reference compiler which uses its own backend, there are
 two other compilers that can be fetched through the
@@ -43,3 +43,24 @@ for other platforms like e.g. ARM.
 
 See the wiki for [more information](https://wiki.dlang.org/Compilers)
 
+## Configure your editor
+
+Using D is way nicer when you have a code editor or IDE to help you out.
+There are D plugins for at least the following editors:
+
+- [Atom](https://github.com/Pure-D/atomize-d)
+- [Eclipse](http://ddt-ide.github.io)
+- [Emacs](https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode)
+- [IntelliJ](https://github.com/kingsleyh/DLanguage)
+- [Mono](https://wiki.dlang.org/Mono-D)
+- [Sublime Text](https://github.com/yazd/DKit)
+- [Vim](https://wiki.dlang.org/D_in_Vim)
+- [VS Code](https://marketplace.visualstudio.com/items/webfreak.code-d)
+- [Visual Studio](http://rainers.github.io/visuald/visuald/StartPage.html)
+
+You may also want to try an IDE written in D for D:
+
+- [Coedit](https://github.com/BBasile/Coedit)
+- [Dlang IDE](https://github.com/buggins/dlangide)
+
+The D wiki contains a more detailed overview of available [editors](https://wiki.dlang.org/Editors) and [IDEs](https://wiki.dlang.org/IDEs).
