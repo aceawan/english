@@ -70,14 +70,15 @@ in the [Unicode gems chapter](gems/unicode).
 
 ### Multi-line strings
 
-To create multi-line strings, use the `string str = q{ ... }` syntax.
+To create multi-line strings (aka heredoc strings), use can use any delimiter if the identifier is followed by a newline, e.g. `EOS`:
 
-    string multiline = q{ This
-        may be a
-        long document
-    };
+    string multiline = q"EOS
+    This
+    may be a
+    long document
+    EOS";
 
-### Raw strings
+### Wysiwyg strings
 
 It is also possible to use raw strings to minimize laborious escaping
 of reserved symbols. Raw strings can be declared using either backticks (`` `
@@ -85,6 +86,9 @@ of reserved symbols. Raw strings can be declared using either backticks (`` `
 
     string raw  =  `raw "string"`; // raw "string"
     string raw2 = r"raw "string""; // raw "string"
+
+D provides even more ways to represent strings - don't hesitate
+to [explore](https://dlang.org/spec/lex.html#string_literals) them.
 
 ### In-depth
 
